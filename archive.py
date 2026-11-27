@@ -10,7 +10,7 @@ def check_messages(regex, tests):
                 f"Ожидалось: {expected}\n"
                 f"Ваш шаблон нашёл: {actual}"
             )
-        return True, "Все сообщения обработаны правильно!"
+    return True, "Все сообщения обработаны правильно!"
 
 
 def check_archive_1(regex):
